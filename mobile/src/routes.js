@@ -10,8 +10,7 @@ const Routes = createAppContainer(
 			Main: {
 				screen: Main,
 				navigationOptions: {
-					title: 'DevRadar',
-					headerTitleAlign: 'center'
+					title: 'DevRadar'
 				}
 			},
 			Profile: {
@@ -24,6 +23,10 @@ const Routes = createAppContainer(
 		{
 			defaultNavigationOptions: {
 				headerTintColor: '#FFF',
+				headerTitleAlign: 'center',
+				headerTitleStyle: {
+					fontWeight: 'bold'
+				},
 				headerStyle: {
 					backgroundColor: '#7D40E7'
 				}
